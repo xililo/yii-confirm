@@ -10,7 +10,7 @@
   z-index: 1060;
 }
 
-.yii-confirm-modal-overlay {
+.yii-confirm-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -19,7 +19,7 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.yii-confirm-modal-dialog {
+.yii-confirm-dialog {
   background-color: #fff;
   max-width: 400px;
   border-radius: 4px;
@@ -27,17 +27,17 @@
   z-index: 1060;
 }
 
-.yii-confirm-modal-header {
+.yii-confirm-header {
   background-color: #f2f2f2;
   padding: 10px;
   position: relative;
 }
 
-.yii-confirm-modal-title {
+.yii-confirm-title {
   margin: 0;
 }
 
-.yii-confirm-modal-close {
+.yii-confirm-close {
   position: absolute;
   top: 50%;
   right: 10px;
@@ -47,17 +47,17 @@
   cursor: pointer;
 }
 
-.yii-confirm-modal-body {
+.yii-confirm-body {
   padding: 20px;
 }
 
-.yii-confirm-modal-footer {
+.yii-confirm-footer {
   padding: 10px;
   text-align: right;
   background-color: #f2f2f2;
 }
 
-.yii-confirm-modal-btn {
+.yii-confirm-btn {
   padding: 8px 12px;
   border: none;
   border-radius: 4px;
@@ -65,11 +65,11 @@
   cursor: pointer;
 }
 
-.yii-confirm-modal-cancel-btn {
+.yii-confirm-cancel-btn {
   background-color: #e0e0e0;
 }
 
-.yii-confirm-modal-confirm-btn {
+.yii-confirm-confirm-btn {
   background-color: #2196f3;
   color: #fff;
 }
