@@ -12,7 +12,7 @@ function confirmationModal(options) {
     );
 
     var modalHtml = `
-      <div class="custom-confirmation-modal">
+      <div class="yii-confirm-confirmation-modal">
         <div class="yii-confirm-overlay"></div>
         <div class="yii-confirm-dialog">
           <div class="yii-confirm-content">
