@@ -1,10 +1,10 @@
 <?php
 
-namespace xililo\yiiConfirm\assets;
+namespace xililo\YiiConfirm;
 
 use yii\web\AssetBundle;
 
-class ConfirmOverrideAsset extends AssetBundle
+class ConfirmAssets extends AssetBundle
 {
     public $sourcePath = '@vendor/xililo/yii-confirm/assets';
 
