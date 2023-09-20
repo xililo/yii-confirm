@@ -1,0 +1,25 @@
+{
+    "name": "xililo/yii-confirm",
+    "description": "Widget For Confirmation Popups",
+    "type": "yii2-widget",
+    "keywords": [
+        "widget",
+        "confirm",
+        "popup"
+    ],
+    "homepage": "https://github.com/xililo/yii-confirm",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "xililo\\ConfirmOverrideAsset\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xililo"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0"
+    }
+}
