@@ -10,6 +10,11 @@ class ConfirmAssets extends AssetBundle
 
     public $js = [
         'confirm-override.js',
+        'confirm-js.js',
+
+    ];
+    public $css = [
+        'confirm-js.css',
     ];
 
     public $depends = [
